@@ -78,10 +78,4 @@ def generate_qr_code(wifi_configuration: WifiConfiguration):
 
 
 if __name__ == "__main__":
-    # Replace these values
-    SSID = "MyWiFiNetwork"
-    PASSWORD = "SuperSecretPassword"
-
-    wifi_configuration = load_configuration()
-
-    generate_qr_code(wifi_configuration)
+    generate_qr_code(load_configuration())
