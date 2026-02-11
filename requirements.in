@@ -1,0 +1,5 @@
+qrcode[pil]
+python-dotenv
+
+uv
+ruff
